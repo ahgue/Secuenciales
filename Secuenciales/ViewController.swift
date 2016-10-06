@@ -31,6 +31,7 @@ class ViewController: UIViewController {
             if s1! != (s2!-1) && z != 0 {
                 print("hay un grupo de \(s1!-z) hasta \(s1!)")
                 z = 0
+                
             }
             if index == secuence.count-2 {
                 print("hay un grupo de \(s2!-z) hasta \(s2!)")
